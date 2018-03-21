@@ -1,40 +1,46 @@
 body {
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 h1,
 h2,
 h3 {
 
-    font-family: 'Patua One', cursive;
+	font-family: 'Patua One', cursive;
 }
 
 
 img {
-    width: 100%;
+	width: 100%;
+}
+
+.sectionwrapper {
+	max-width: 1280px;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 #menu .sectionwrapper {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: row;
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
 }
 
 #menu .column {
-    flex-grow: 1;
-    flex-basis: 250px;
+	flex-grow: 1;
+	flex-basis: 250px;
 }
 
 .hs-responsive-embed-youtube iframe {
-    position: absolute;
-    width: 100%!important;
-    height: 100%!important;
+	position: absolute;
+	width: 100%!important;
+	height: 100%!important;
 }
 
 .hs-responsive-embed-youtube {
-    margin: 20px;
-    position: relative;
-    padding-bottom: 56.25%;
-    /* 16:9 Aspect Ratio */
-    padding-top: 25px;
+	margin: 20px;
+	position: relative;
+	padding-bottom: 56.25%;
+	/* 16:9 Aspect Ratio */
+	padding-top: 25px;
 }
