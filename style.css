@@ -18,6 +18,14 @@ h1 {
 }
 
 
+h2 {
+
+	font-family: 'Patua One', cursive;
+	text-transform: uppercase;
+	font-size: 2em;
+
+}
+
 h3 {
 
 	font-family: 'Patua One', cursive;
@@ -34,7 +42,11 @@ section {
 	width: 1280px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 3rem;
+	padding: 3rem 0 5rem;
+}
+
+.menuwrapper {
+	background-color: #e4bb9f;
 }
 
 #menu .sectionwrapper {
