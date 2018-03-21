@@ -1,3 +1,14 @@
 img {
     width: 100%;
 }
+
+#menu .sectionwrapper {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+#menu .column {
+    flex-grow: 1;
+    flex-basis: 250px;
+}
