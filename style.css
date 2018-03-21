@@ -22,6 +22,12 @@ img {
     width: 100%;
 }
 
+.sectionwrapper {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #menu .sectionwrapper {
     flex-wrap: wrap;
     display: flex;
