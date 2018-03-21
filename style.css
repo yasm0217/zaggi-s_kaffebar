@@ -14,7 +14,7 @@ h1 {
 
 	font-family: 'Patua One', cursive;
 	text-transform: uppercase;
-	font-size: 2.3rem;
+	font-size: 2rem;
 }
 
 
@@ -22,7 +22,7 @@ h2 {
 
 	font-family: 'Patua One', cursive;
 	text-transform: uppercase;
-	font-size: 1.8em;
+	font-size: 1.5em;
 
 }
 
@@ -30,7 +30,7 @@ h3 {
 
 	font-family: 'Patua One', cursive;
 	text-transform: uppercase;
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 }
 
 h4 {
@@ -40,6 +40,9 @@ h4 {
 	font-size: 1rem;
 }
 
+p {
+	line-height: 1.5rem;
+}
 
 img {
 	width: 100%;
@@ -67,11 +70,19 @@ header a {
 	margin-left: 1rem;
 }
 
+header a:first-child {
+	margin-left: 0;
+}
+
+header a:hover {
+	Color: #aaa;
+}
+
 section {
 	width: auto;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 3rem 3rem 6rem;
+	padding: 3rem 3rem 5rem;
 }
 
 .column {
@@ -154,14 +165,14 @@ section {
 }
 
 #kontakt .some img {
-	width: 3rem;
-	margin-right: 1rem;
+	width: 2.2rem;
+	margin-right: 0.75rem;
 }
 
 #kontakt .some .symbol {
 	display: flex;
 	align-items: center;
-	padding-bottom: 2rem;
+	padding-bottom: 1.5rem;
 }
 
 #kontakt .some .symbol a {
@@ -181,12 +192,28 @@ section {
 	margin-top: 2rem;
 }
 
+footer {
+	text-align: center;
+	font-size: 0.7rem;
+	font-style: italic;
+	color: #fff;
+	padding: 2rem 1rem 3rem 0;
+	height: 5rem;
+	background-color: #202020;
+}
+
+footer .devide {
+	padding: 0 0.5rem 0;
+}
+
+
 /*media quaries*/
 
 @media only screen and (min-width: 613px) {
 
 	section {
 		width: auto;
+		font-size: 0.8rem;
 	}
 
 	#om .images img {
@@ -196,6 +223,10 @@ section {
 	header {
 		flex-direction: row;
 		justify-content: space-between;
+	}
+
+	p {
+		line-height: 1.2rem;
 	}
 }
 
