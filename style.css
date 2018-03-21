@@ -14,7 +14,7 @@ h1 {
 
 	font-family: 'Patua One', cursive;
 	text-transform: uppercase;
-	font-size: 2.5rem;
+	font-size: 2.3rem;
 }
 
 
@@ -22,7 +22,7 @@ h2 {
 
 	font-family: 'Patua One', cursive;
 	text-transform: uppercase;
-	font-size: 2em;
+	font-size: 1.8em;
 
 }
 
@@ -30,7 +30,7 @@ h3 {
 
 	font-family: 'Patua One', cursive;
 	text-transform: uppercase;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 }
 
 h4 {
@@ -61,6 +61,21 @@ section {
 	color: #fff;
 }
 
+#om .sectionwrapper {
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+}
+
+#om .column {
+	flex-grow: 1;
+	flex-basis: 250px;
+}
+
+#om .images img {
+	padding: 0 0 1.5rem;
+}
+
 .menuwrapper {
 	background-color: #e4bb9f;
 }
@@ -73,13 +88,12 @@ section {
 
 #menu .column {
 	flex-grow: 1;
-	flex-basis: 250px;
+	flex-basis: 222px;
 }
 
 
 .videobox {
 	max-width: 720px;
-	margin-left: auto;
 	margin-right: auto;
 }
 
@@ -140,30 +154,41 @@ section {
 }
 
 #kontakt iframe {
+	width: 100%;
+	max-width: 350px;
 	margin-top: 2rem;
 }
 
 /*media quaries*/
+
+@media only screen and (min-width: 613px) {
+
+	section {
+		width: auto;
+	}
+
+	#om .images img {
+		padding: 1.25rem 0 0 3rem;
+	}
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
 	section {
 		width: auto;
 	}
+
+	#om .images img {
+		padding: 1.25rem 0 0 4rem;
+	}
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+@media only screen and (min-width: 1025px) {
 
 	section {
 		width: 1024px;
 	}
-}
-
-
-@media only screen and (min-width: 1280px) {
-
-	section {
-		width: 1280px;
+	#om .images img {
+		padding: 1.25rem 0 0 5rem;
 	}
-
 }
