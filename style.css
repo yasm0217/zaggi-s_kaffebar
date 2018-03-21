@@ -45,6 +45,28 @@ img {
 	width: 100%;
 }
 
+header {
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem;
+}
+
+header h1 {
+	line-height: 2rem;
+	margin: 0;
+	padding: 0 0 1rem;
+}
+
+header a {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	Color: #000;
+	text-decoration: none;
+	margin-left: 1rem;
+}
+
 section {
 	width: auto;
 	margin-left: auto;
@@ -169,6 +191,11 @@ section {
 
 	#om .images img {
 		padding: 1.25rem 0 0 3rem;
+	}
+
+	header {
+		flex-direction: row;
+		justify-content: space-between;
 	}
 }
 
