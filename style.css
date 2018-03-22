@@ -75,14 +75,15 @@ header a:first-child {
 }
 
 header a:hover {
-	Color: #aaa;
+	color: #aaa;
+	transition: color 0.5s ease;
 }
 
 section {
 	width: auto;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 3rem 3rem 5rem;
+	padding: 3rem 3rem 4rem;
 }
 
 .column {
@@ -197,7 +198,7 @@ footer {
 	font-size: 0.7rem;
 	font-style: italic;
 	color: #fff;
-	padding: 2rem 1rem 3rem 0;
+	padding: 3rem 3rem 4.5rem;
 	height: 5rem;
 	background-color: #202020;
 }
@@ -206,6 +207,19 @@ footer .devide {
 	padding: 0 0.5rem 0;
 }
 
+.pil {
+	padding: 0 0 2rem;
+	text-align: center;
+}
+
+.pil img {
+	max-width: 2rem;
+}
+
+.pil img:hover {
+	opacity: 0.25;
+	transition: opacity 0.5s ease;
+}
 
 /*media quaries*/
 
@@ -213,7 +227,7 @@ footer .devide {
 
 	section {
 		width: auto;
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 	}
 
 	#om .images img {
@@ -234,6 +248,7 @@ footer .devide {
 
 	section {
 		width: auto;
+		font-size: 0.8rem;
 	}
 
 	#om .images img {
@@ -245,6 +260,7 @@ footer .devide {
 
 	section {
 		width: 1024px;
+		font-size: 0.8rem;
 	}
 	#om .images img {
 		padding: 1.25rem 0 0 5rem;
