@@ -110,22 +110,6 @@ section {
 	padding: 0 0 1.5rem;
 }
 
-.menuwrapper {
-	background-color: #e4bb9f;
-}
-
-#menu .sectionwrapper {
-	flex-wrap: wrap;
-	display: flex;
-	flex-direction: row;
-}
-
-#menu .column {
-	flex-grow: 1;
-	flex-basis: 222px;
-}
-
-
 .videobox {
 	max-width: 720px;
 	margin-right: auto;
@@ -142,6 +126,30 @@ section {
 	padding-bottom: 56.25%;
 	/* 16:9 Aspect Ratio */
 	padding-top: 25px;
+}
+
+.menuwrapper {
+	background-image: url(images/menu-baggrund.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: #e4bb9f;
+}
+
+#menu .sectionwrapper {
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+}
+
+#menu .column {
+	flex-grow: 1;
+	flex-basis: 222px;
+}
+
+#menu .pris {
+	font-size: 1rem;
+	font-style: italic;
 }
 
 #kontakt {
@@ -184,7 +192,8 @@ section {
 }
 
 #kontakt .some .symbol a:hover {
-	text-decoration: underline;
+	opacity: 0.25;
+	transition: opacity 0.5s ease;
 }
 
 #kontakt iframe {
@@ -220,6 +229,7 @@ footer .devide {
 	opacity: 0.25;
 	transition: opacity 0.5s ease;
 }
+
 
 /*media quaries*/
 
