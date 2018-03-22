@@ -76,7 +76,17 @@ section {
 
 /* header */
 
+.forside {}
+
+.headerbox {
+	position: absolute;
+	width: 100%;
+}
+
 header {
+	top: 0;
+	left: 0;
+	z-index: 100;
 	flex-wrap: wrap;
 	display: flex;
 	flex-direction: column;
@@ -283,10 +293,6 @@ footer .devide {
 		padding: 1.25rem 0 0 3rem;
 	}
 
-	header {
-		flex-direction: row;
-		justify-content: space-between;
-	}
 
 	p {
 		line-height: 1.2rem;
@@ -294,6 +300,7 @@ footer .devide {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
 
 	section {
 		width: auto;
@@ -305,7 +312,20 @@ footer .devide {
 	}
 }
 
+
+@media only screen and (min-width: 628px) {
+
+	header {
+		flex-direction: row-reverse;
+	}
+}
+
+
 @media only screen and (min-width: 1025px) {
+
+	header {
+		flex-direction: row-reverse;
+	}
 
 	section {
 		width: 1024px;
