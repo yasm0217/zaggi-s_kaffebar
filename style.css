@@ -4,6 +4,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
 }
 
 * {
@@ -81,7 +82,9 @@ section {
 
 /* header */
 
-.forside {}
+.forside {
+	background-color: #202020;
+}
 
 .headerbox {
 	position: absolute;
@@ -92,9 +95,7 @@ header {
 	top: 0;
 	left: 0;
 	z-index: 100;
-	flex-wrap: wrap;
 	display: flex;
-	flex-direction: column;
 	padding: 1.5rem 3rem 1.5rem;
 }
 
@@ -133,9 +134,10 @@ nav a:first-child {
 }
 
 nav a:hover {
-	color: #aaa;
-	transition: color 0.5s ease;
+	opacity: 0.25;
+	transition: opacity 0.5s ease;
 }
+
 
 
 /* om */
