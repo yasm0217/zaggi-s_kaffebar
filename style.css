@@ -313,7 +313,14 @@ footer .devide {
 }
 
 
-@media only screen and (min-width: 628px) {
+@media only screen and (min-width: 631px) and (orientation: landscape) {
+
+	header {
+		flex-direction: row-reverse;
+	}
+}
+
+@media only screen and (min-width: 775px) and (orientation: portrait) {
 
 	header {
 		flex-direction: row-reverse;
