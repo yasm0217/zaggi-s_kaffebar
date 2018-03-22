@@ -15,6 +15,7 @@ h1 {
 	font-family: 'Patua One', cursive;
 	text-transform: uppercase;
 	font-size: 2rem;
+	margin-top: 0;
 }
 
 
@@ -48,37 +49,6 @@ img {
 	width: 100%;
 }
 
-header {
-	flex-wrap: wrap;
-	display: flex;
-	flex-direction: column;
-	padding: 1.5rem;
-}
-
-header h1 {
-	line-height: 2rem;
-	margin: 0;
-	padding: 0 0 1rem;
-}
-
-header a {
-	font-size: 1.2rem;
-	text-transform: uppercase;
-	font-weight: bold;
-	Color: #000;
-	text-decoration: none;
-	margin-left: 1rem;
-}
-
-header a:first-child {
-	margin-left: 0;
-}
-
-header a:hover {
-	color: #aaa;
-	transition: color 0.5s ease;
-}
-
 section {
 	width: auto;
 	margin-left: auto;
@@ -87,8 +57,50 @@ section {
 }
 
 .column {
-	padding-bottom: 2rem;
+	padding-bottom: 1rem;
 }
+
+/* header */
+
+header {
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem 3rem 1.5rem;
+}
+
+header h1 {
+	line-height: 2rem;
+	margin: 0;
+	padding: 0 0 1rem;
+}
+
+/* nav */
+
+nav {
+	white-space: nowrap;
+}
+
+nav a {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	Color: #000;
+	text-decoration: none;
+	margin-left: 1rem;
+}
+
+nav a:first-child {
+	margin-left: 0;
+}
+
+nav a:hover {
+	color: #aaa;
+	transition: color 0.5s ease;
+}
+
+
+/* om */
 
 .omwrapper {
 	background-color: #202020;
@@ -128,6 +140,9 @@ section {
 	padding-top: 25px;
 }
 
+
+/* menu */
+
 .menuwrapper {
 	background-image: url(images/menu-baggrund.png);
 	background-repeat: no-repeat;
@@ -151,6 +166,9 @@ section {
 	font-size: 1rem;
 	font-style: italic;
 }
+
+
+/* kontakt */
 
 #kontakt {
 	color: #fff;
@@ -202,6 +220,9 @@ section {
 	margin-top: 2rem;
 }
 
+
+/* footer */
+
 footer {
 	text-align: center;
 	font-size: 0.7rem;
@@ -216,19 +237,6 @@ footer .devide {
 	padding: 0 0.5rem 0;
 }
 
-.pil {
-	padding: 0 0 2rem;
-	text-align: center;
-}
-
-.pil img {
-	max-width: 2rem;
-}
-
-.pil img:hover {
-	opacity: 0.25;
-	transition: opacity 0.5s ease;
-}
 
 
 /*media quaries*/
