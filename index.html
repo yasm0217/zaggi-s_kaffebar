@@ -3,6 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="robots" content="noindex">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Zaggi's Coffee er stedet hvor alt kun koster 15 Kr. Din kaffebar med kvalitetskaffe, hjemmelavede sandwiches, friskbagte brød og kager. Find os på Frederiksborggade 43, lige ved Dronning Louises Bro.">
 	<title>Zaggis kaffebar - stedet hvor alt kun koster 15 Kr.</title>
@@ -26,7 +27,6 @@
 					<a href="#menu">Menu</a>
 					<a href="#kontakt">Kontakt</a>
 				</nav>
-
 			</header>
 		</div>
 		<picture>
@@ -55,8 +55,16 @@
 					<p>Vi vil gerne skabe et nyt syn på kaffekulturen i København. Hos os kan alle kan alle være med.</p>
 				</div>
 				<div class="column images">
-					<img src="images/om_billede-1.png" alt="Stemningbillede af bar i sort/hvid">
-					<img src="images/om-billede-2.png" alt="Stemningbillede af mennesker ved et bord i sort/hvid">
+
+					<picture>
+						<source media="(min-width: 501px)" srcset="images/om_billede-1_desktop.png">
+						<img src="images/om_billede-1_mobile.png" alt="Stemningbillede af bar i sort/hvid">
+					</picture>
+
+					<picture>
+						<source media="(min-width: 501px)" srcset="images/om-billede-2_desktop.png">
+						<img src="images/om-billede-2_mobile.png" alt="Stemningbillede af mennesker ved et bord i sort/hvid">
+					</picture>
 				</div>
 			</div>
 			<div class="videobox">
@@ -126,9 +134,6 @@
 		</section>
 		<div class="pil"><a href="#kontakt"><img src="images/pil_sort.svg" alt="Næste"></a></div>
 	</div>
-
-
-
 
 	<div class="kontaktwrapper">
 		<section id="kontakt">
