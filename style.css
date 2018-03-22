@@ -60,6 +60,20 @@ section {
 	padding-bottom: 1rem;
 }
 
+.pil {
+	padding: 0 0 2rem;
+	text-align: center;
+}
+
+.pil img {
+	max-width: 2rem;
+}
+
+.pil img:hover {
+	opacity: 0.25;
+	transition: opacity 0.5s ease;
+}
+
 /* header */
 
 header {
